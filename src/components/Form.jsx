@@ -1,10 +1,10 @@
 import { useContext, useRef } from 'react'
 
-import { AppContext } from './ThemedApp'
+import { AppContext } from '../ThemedApp'
 
 export default function Form({ add })
 { 
-    const { mode } = useContext(AppContext)
+    const { mode, setMode } = useContext(AppContext)
 
     const contentRef = useRef()
     const nameRef = useRef()

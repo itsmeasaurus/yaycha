@@ -1,9 +1,9 @@
 import { useContext, useState } from 'react'
 
+import Item from './components/Item.jsx'
+import Form from './components/Form.jsx'
+import { AppContext, useApp } from './ThemedApp.jsx'
 import List from './List.jsx'
-import Item from './Item.jsx'
-import Form from './Form.jsx'
-import {AppContext} from './ThemedApp.jsx'
 
 export default function App()
 {
